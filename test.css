@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   background-image: url(img/darkblue.jpg);
+   background-size: cover;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.div-1 {
+  float: left;
+  width: 50%;
+}
+
+.div-2 {
+  float: right;
+  width: 50%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.first {
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+hr {
+  width: 60%;
+  margin-left: 300px;
+  color: lightblue;
+}
+
+p {
+  color: rgb(226, 220, 220);
+  width: 40%;
+  padding: 50px;
+  margin-left: 200px;
+}
+
+img {
+  margin-left: 200px;
+}
+
+.sign-in {
+  width: 50%;
+  background: rgba(50, 69, 120, 0.6);
+  color: #fff;
+  margin-top: 50px;
+  padding: 80px 50px;
+}
+
+h2 {
+ font-family: 'Roboto', sans-serif;
+ padding-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+}
+
+.click {
+  background: orange;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+::placeholder {
+  color: rgb(39, 34, 34);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+button.click {
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.social-icons1 {
+  background: rgb(63, 63, 241);
+  color: rgba(255, 255, 255, 0.829);
+  font-family: 'Roboto', sans-serif;
+  border: none;
+   border: none;
+   padding: 5px 10px;
+   border: none;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+.social-icons2 {
+  background: #fff;
+  color:red;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+   padding: 5px 10px;
+   border: none;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.social-icons3 {
+  background: rgb(63, 63, 241);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  padding: 5px 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover{
+ background: rgb(202, 247, 247);
+ color: #000;
+ cursor: pointer;
+}
+
+ input:hover {
+  background: rgb(202, 247, 247);
+  color: #000;
+  cursor: pointer;
+}
